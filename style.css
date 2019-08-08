@@ -45,7 +45,7 @@ overflow-x: hidden;
 
 /*--- Landing Page ---*/
 .home-inner {
-  background-image: url(img/computers.png);
+  background-image: url(img/computers.png);  
 }
 
 .caption {
@@ -214,6 +214,14 @@ hr.socket {
 
 /* Media Queries */
   @media (max-width: 767px) {
+    .caption {
+      top: 20%; 
+    }
+
+    .landing {
+      height: 500px !important;
+    }  
+    
     .caption h1 {
       font-size: 2.3rem;
       letter-spacing: .15rem;
